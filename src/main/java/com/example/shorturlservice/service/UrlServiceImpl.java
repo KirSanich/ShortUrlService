@@ -52,9 +52,5 @@ public class UrlServiceImpl implements UrlService {
         return hashOperations.entries(HASH_KEY);
     }
 
-    @Override
-    public void deleteUrl(Url url) {
-        log.info("Trying delete url");
-        hashOperations.delete("URL", url.getId());
-    }
+
 }

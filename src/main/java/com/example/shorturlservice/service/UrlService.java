@@ -12,6 +12,4 @@ public interface UrlService {
 
     Map<Long, Url> getAllUrlsData();
 
-    void deleteUrl(Url url);
-
 }
